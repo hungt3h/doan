@@ -1,0 +1,46 @@
+.header{
+    background-image: url(../img/image\ 50.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1300px;
+}
+.main-banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 275px;
+    color: white;
+}
+.about-mid{
+    background-color: #6C6C6C;
+}
+.info-about2{
+    margin-top: 100px;
+    color: black;
+}
+.img-about{
+    margin-top: 100px;
+}
+input,
+textarea{
+    font-size: 36px;
+    color: white;
+    outline: none;
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: center;
+}
+.input{
+    padding: 10px 30px;
+    background-color: #6C6C6C;
+    border: 6px solid #680000;
+    margin: auto;
+    margin-top: 32px;
+}
+input::placeholder{
+    color: white;
+    text-align: center;
+}
+.big-button{
+    background-color: black;
+}

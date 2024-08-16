@@ -1,0 +1,25 @@
+.header{
+    background-image: url(../img/Rectangle\ 16105\ \(1\).png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.main-banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 275px;
+    color: white;
+}
+.about-mid{
+    background-color: #6C6C6C;
+}
+.info-about2{
+    margin-top: 100px;
+    color: black;
+}
+.img-about{
+    margin-top: 100px;
+}
+.footer{
+    margin-top: 48px;
+}

@@ -1,0 +1,194 @@
+body{
+    background: #000000;
+}
+.body {
+    color: rgb(255, 255, 255);
+}
+.display-text{
+    font-size:120px;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 16px;
+}
+p{
+    font-size:18px;
+}
+a{
+ font-size: 24px;
+}
+@font-face {
+    font-family: 'VesperLibre';
+    src: url(../font/VesperLibre-Bold.woff) format('woff');
+    font-style: bold ;
+}
+@font-face {
+    font-family: 'VesperLibre';
+    src: url(../font/VesperLibre-Regular.woff) format('woff');
+    font-style: normal ;
+    font-weight: 400;
+}
+
+*{
+    font-family: 'VesperLibre' !important;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    width: 240px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 24px;
+}
+li:hover>a{
+    font-size: 28px;
+}
+li{
+    list-style: none;
+}
+.sub-menu{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.navbar{
+    z-index: 1;
+}
+.main-text-banner {
+    margin-left: 200px;
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+    justify-content:center ;
+    color: white;
+}
+.background-body{
+    background-image: url(../img/image\ 31.png);
+    background-repeat: no-repeat;
+    height: 1390px;
+    background-size: 100% 100%;
+    padding-top: 200px; 
+}
+.full-background {
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+    position: relative;
+    top: -160px;
+
+}
+.adver{
+    background-color: #680000;
+    width: 100%;
+    height: 245px;
+}
+.merch {
+    background-color: #6C6C6C;
+}
+.tour{
+    text-align: center;
+    padding-top: 40px;
+}
+.footer{
+    background-color: #290000;
+    height: 300px;
+}
+.logo-footer{
+    width: 60%;
+    height: 60%;
+    justify-content:center;
+    margin-top: 50px;
+}
+.menu-footed{
+    align-content: center;
+}
+
+.bg-video{
+    position: relative;
+    padding: 0px;
+}
+
+video#video{
+    max-width: 100%;
+    width: 100%;
+}
+
+.nav-bar-app{
+    position: absolute;
+    top: 0;
+}
+
+.main-text-banner {
+    position: absolute;
+    top: 0%;
+}
+.origin{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.small-btn{
+    padding: 10px 50px;
+    background: none;
+    color: white;
+    border: 6px solid #ffffff;
+    margin-left: 10px;
+}
+.big-button,
+.small-btn:hover{
+    background: none;
+    border: 6px solid #680000;
+}
+.tour-location{
+    text-align: center;
+    margin-top: auto;
+}
+.info-tour{
+    padding-bottom: 32px;
+    padding-top: 32px;
+    border-bottom: 1px solid white;
+}
+.big-button{
+    font-size: 36px;
+    padding: 10px 30px;
+    background: none;
+    color: white;
+    border: 6px solid #680000;
+    margin: auto;
+    margin-top: 32px;
+}
+.big-button:hover{
+    border: 6px solid #ffffff;
+}
+.main-menu{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.merch-picture{
+    height: 311px;
+    width: 222px;
+}
