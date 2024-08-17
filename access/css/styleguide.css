@@ -99,7 +99,12 @@ li{
 .adver{
     background-color: #680000;
     width: 100%;
-    height: 245px;
+    /* height: 245px; */
+    padding-top: 50px;
+    padding-bottom: 62px;
+}
+.adver-img {
+    margin-bottom: 28px;
 }
 .merch {
     background-color: #6C6C6C;
@@ -110,13 +115,13 @@ li{
 }
 .footer{
     background-color: #290000;
-    height: 300px;
+    /* height: 300px; */
 }
 .logo-footer{
     width: 60%;
-    height: 60%;
+    /* height: 60%; */
     justify-content:center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .menu-footed{
     align-content: center;

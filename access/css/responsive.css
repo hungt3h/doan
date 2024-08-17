@@ -1,0 +1,49 @@
+@media (max-width:767px) {
+    .header {
+        display: none;
+    }
+
+    .display-text{
+        font-size:120px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 48px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    h6{
+        font-size: 16px;
+    }
+    p{
+        font-size:14px;
+    }
+    a{
+     font-size: 24px;
+    }
+
+
+    .item-none {
+        display: none;
+    }
+    .item-block {
+        display: block;
+    }
+
+    .info-about2 {
+        margin-top: 20px;
+    }
+    .img-about {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
