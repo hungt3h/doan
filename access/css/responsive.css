@@ -1,8 +1,4 @@
 @media (max-width:767px) {
-    .header {
-        display: none;
-    }
-
     .display-text{
         font-size:120px;
     }
@@ -45,5 +41,99 @@
     .img-about {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+}
+
+/* style tablet */
+@media (max-width: 1024px) and (min-width: 767px) {
+    .logo {
+        width: 150px;
+    }
+
+    ul.item-menu li a {
+        font-size: 17px;
+    }
+    
+    .main-text-banner .text-banner h1 {
+        margin: 0;
+        font-size: 55px;
+    }
+
+    .main-text-banner .text-banner .display-text {
+        font-size: 60px;
+    }
+
+    .small-btn {
+        padding: 6px;
+    }
+}
+
+/* style menu mobile */
+@media screen and (max-width: 767px) {
+    .logo {
+        width: 190px;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+    }
+
+    .bg-menu {
+        background-color: rgba(20, 20, 20, 1);
+    }
+
+    .nav-bar-app {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(20, 20, 20, 1);
+        top: 119px;
+        overflow-y: auto;
+        z-index: 999;
+    }
+
+    .main-menu {
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .main-menu .sub-menu {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .main-menu .sub-menu a {
+        display: block;
+        text-align: center;
+        font-size: 28px;
+        font-family: 'Main Font';
+        font-weight: 400;
+        font-style: normal;
+        transition-duration: 0.5s;
+        transition-property: color;
+        color: rgba(232, 228, 225, 1);
+    }
+
+    .merch .container{
+        max-width: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .merch-mobile {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+    }
+
+    .title-merch {
+        font-size: 50px;
+    }
+
+    .small-btn {
+        padding: 10px 30px;
     }
 }
