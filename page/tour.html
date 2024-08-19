@@ -13,22 +13,34 @@
     <link rel="stylesheet" href="../access/css/responsive.css">
 </head>
 <body>
-    <div class="header">
+    <div class="header bg-menu">
         <div class="container-fluid">
-            <div class="row">
-                <div class="container">
-                      <div class="container">
+            <div class="row menu-desktop">
+                <div class="container bg-video">
+                    <div class="row justify-content-center m-0">
+                        <div class="col-12 p-0">
+                            <div class="main-banner">
+                                <div class="text-banner">
+                                    <h1>SEE US</h1>
+                                </div>
+                                <div class="text-banner">
+                                    <span class="display-text">LIVE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
                         <nav class="navbar nav-bar-app">
                             <div class="main-menu col-4">
-                                <ul class="item-menu d-flex justify-content-end">
+                                <ul class="item-menu d-flex justify-content-between">
                                     <li class="sub-menu">
                                         <a href="../index.html">HOME</a>
                                     </li>
                                     <li class="sub-menu">
-                                        <a href="./about.html">ABOUT</a>
+                                        <a href="../page/about.html">ABOUT</a>
                                     </li>
                                     <li class="sub-menu">
-                                        <a href="./listen.html">LISTEN</a>
+                                        <a href="../page/listen.html">LISTEN</a>
                                     </li>
                                 </ul>
                             </div>
@@ -40,35 +52,60 @@
                                 </ul>
                             </div>
                             <div class="main-menu col-4 ">
-                                <ul class="item-menu d-flex justify-content-sm-center">
+                                <ul class="item-menu d-flex justify-content-between">
                                     <li class="sub-menu">
-                                        <a href="./merch.html">MERCH</a>
+                                        <a href="../page/merch.html">MERCH</a>
                                     </li>
                                     <li class="sub-menu">
-                                        <a href="./tour.html">TOUR</a>
+                                        <a href="../page/tour.html">TOUR</a>
                                     </li>
                                     <li class="sub-menu">
-                                        <a href="./contract.html">CONTRACT</a>
+                                        <a href="../page/contract.html">CONTRACT</a>
                                     </li>
                                 </ul>
                             </div>
                         </nav>
-                      </div>
-                    <div class="row justify-content-center">
-                        <div class="col-12">
-                            <div class="main-banner">
-                                <div class="text-banner">
-                                    <h1>SEE US</h1>
-                                </div>
-                                <div class="text-banner">
-                                    <span class="display-text">LIVE</span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="menu-mobile align-items-center justify-content-between p-3">
+            <a class="item-logo" href="../index.html">
+                <img class="logo" src="../access/img/ac0914bc-33be-4f9a-abe7-c3208b632a5f 1.png" alt="">
+            </a>
+            <div class="menu-icon" onclick="toggleEventClick()">
+                <svg class="show-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+                <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                </svg>
+            </div>
+        </div>
+        <nav class="nav-mobile nav-bar-app">
+            <div class="main-menu">
+                <ul class="item-menu m-0 p-0">
+                    <li class="sub-menu">
+                        <a href="../index.html">HOME</a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="../page/about.html">ABOUT</a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="../page/listen.html">LISTEN</a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="../page/merch.html">MERCH</a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="../page/tour.html">TOUR</a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="../page/contract.html">CONTRACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
     <div class="body">
         <div class="adver container-fluid">
@@ -137,7 +174,6 @@
             </div>
             <button class="big-button d-flex align-content-center"><a href="./tour.html">SEE ALL DATES</a></button>
         </div>
-        
     </div>
     <div class="footer pt-4">
         <div class="container text-center">
@@ -145,9 +181,9 @@
                 <div class="col-12 col-lg-4 mb-5">
                     <img class="logo-footer" src="../access/img/ac0914bc-33be-4f9a-abe7-c3208b632a5f 1.png" alt="">
                  </div>
-                <div class="menu-footed col-12 col-md-4">
+                <div class="menu-footed col-12 col-lg-4">
                     <div class="row">
-                        <ul class="col-12 col-md-6">
+                        <ul class="col-12 col-lg-6">
                             <li class="mb-3">
                                 <a href="../index.html">HOME</a>
                             </li>
@@ -158,7 +194,7 @@
                                 <a href="../page/listen.html">LISTEN</a>
                             </li>
                         </ul>
-                        <ul class="col-12 col-md-6">
+                        <ul class="col-12 col-lg-6">
                             <li class="mb-3">
                                 <a href="../page/merch.html">MERCH</a>
                             </li>
@@ -171,7 +207,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-lg-4">
                     <div class="row">
                         <div class="search">
                             <input type="search" name="" id="">
@@ -185,7 +221,6 @@
             <h6 class="m-0">DESIGNED BY TIEN DUNG</h6>
         </div>
     </div>
-
     <script src="../access/js/base.js"></script>
 </body>
 </html>

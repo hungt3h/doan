@@ -15,47 +15,50 @@
 <body>
     <div class="header">
         <div class="container-fluid">
-            <div class="row">
-                <div class="container">
-                      <div class="container">
-                        <nav class="navbar nav-bar-app">
-                            <div class="main-menu col-4">
-                                <ul class="item-menu d-flex justify-content-end">
-                                    <li class="sub-menu">
-                                        <a href="../index.html">HOME</a>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="./about.html">ABOUT</a>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="./listen.html">LISTEN</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="main-menu col-4">
-                                <ul class="item-menu d-flex justify-content-center">
-                                    <li class="sub-menu">
-                                        <a href="../index.html"><img class="logo" src="../access/img/ac0914bc-33be-4f9a-abe7-c3208b632a5f 1.png" alt=""></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="main-menu col-4 ">
-                                <ul class="item-menu d-flex justify-content-sm-center">
-                                    <li class="sub-menu">
-                                        <a href="./merch.html">MERCH</a>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="./tour.html">TOUR</a>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="./contract.html">CONTRACT</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                      </div>
-                    <div class="row justify-content-center">
-                        <div class="col-12">
+            <div class="row menu-desktop">
+                <div class="container bg-video">
+                    <div class="image-banner">
+                        <img src="../access/img/Rectangle 16105.png" alt="">
+                    </div>
+                    <div class="container">
+                    <nav class="navbar nav-bar-app">
+                        <div class="main-menu col-4">
+                            <ul class="item-menu d-flex justify-content-between">
+                                <li class="sub-menu">
+                                    <a href="../index.html">HOME</a>
+                                </li>
+                                <li class="sub-menu">
+                                    <a href="../page/about.html">ABOUT</a>
+                                </li>
+                                <li class="sub-menu">
+                                    <a href="../page/listen.html">LISTEN</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main-menu col-4">
+                            <ul class="item-menu d-flex justify-content-center">
+                                <li class="sub-menu">
+                                    <a href="../index.html"><img class="logo" src="../access/img/ac0914bc-33be-4f9a-abe7-c3208b632a5f 1.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main-menu col-4 ">
+                            <ul class="item-menu d-flex justify-content-between">
+                                <li class="sub-menu">
+                                    <a href="../page/merch.html">MERCH</a>
+                                </li>
+                                <li class="sub-menu">
+                                    <a href="../page/tour.html">TOUR</a>
+                                </li>
+                                <li class="sub-menu">
+                                    <a href="../page/contract.html">CONTRACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    </div>
+                    <div class="col-12 main-text-banner justify-content-center m-0">
+                        <div class="col-12 d-flex justify-content-center p-0">
                             <div class="main-banner">
                                 <div class="text-banner">
                                     <h1>MERCH</h1>
@@ -66,6 +69,43 @@
                 </div>
             </div>
         </div>
+        <div class="menu-mobile align-items-center justify-content-between p-3">
+            <a class="item-logo" href="../index.html">
+                <img class="logo" src="../access/img/ac0914bc-33be-4f9a-abe7-c3208b632a5f 1.png" alt="">
+            </a>
+            <div class="menu-icon" onclick="toggleEventClick()">
+                <svg class="show-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+                <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                </svg>
+            </div>
+        </div>
+        <nav class="nav-mobile nav-bar-app">
+            <div class="main-menu">
+                <ul class="item-menu m-0 p-0">
+                    <li class="sub-menu">
+                        <a href="../index.html">HOME</a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="../page/about.html">ABOUT</a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="../page/listen.html">LISTEN</a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="../page/merch.html">MERCH</a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="../page/tour.html">TOUR</a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="../page/contract.html">CONTRACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
     <div class="body">
         <div class="container">

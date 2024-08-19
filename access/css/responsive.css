@@ -112,6 +112,7 @@
 
     .menu-mobile {
         display: flex;
+        background: transparent;
     }
 
     .header.bg-menu {
