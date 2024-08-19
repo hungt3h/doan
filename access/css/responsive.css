@@ -1,5 +1,14 @@
+@media (min-width: 1024px) {
+    .item-none {
+        display: block;
+    }
+    .item-block {
+        display: none;
+    }
+}
+
 /* style tablet */
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 768px) {
     h1{
         font-size: 54px;
     }
@@ -44,11 +53,11 @@
     .small-btn {
         padding: 6px;
     }
-    .item-none {
-        display: none;
-    }
     .item-block {
         display: block;
+    }
+    .item-none {
+        display: none;
     }
 }
 
@@ -79,12 +88,11 @@
      font-size: 16px;
     }
 
-
-    .item-none {
-        display: none;
-    }
     .item-block {
         display: block;
+    }
+    .item-none {
+        display: none;
     }
 
     .info-about2 {
