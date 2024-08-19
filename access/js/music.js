@@ -185,11 +185,11 @@ for (let i = 0; i < allMusic.length; i++) {
                 <span id="${allMusic[i].src}" class="audio-duration">3:40</span>
                 <audio class="${allMusic[i].src}" src="songs/${allMusic[i].src}.mp3"></audio>
               </li>`;
-  ulTag.insertAdjacentHTML("beforeend", liTag); //inserting the li inside ul tag
+  ulTag?.insertAdjacentHTML("beforeend", liTag); //inserting the li inside ul tag
 
-  let liAudioDuartionTag = ulTag.querySelector(`#${allMusic[i].src}`);
-  let liAudioTag = ulTag.querySelector(`.${allMusic[i].src}`);
-  liAudioTag.addEventListener("loadeddata", ()=>{
+  let liAudioDuartionTag = ulTag?.querySelector(`#${allMusic[i].src}`);
+  let liAudioTag = ulTag?.querySelector(`.${allMusic[i].src}`);
+  liAudioTag?.addEventListener("loadeddata", ()=>{
     let duration = liAudioTag.duration;
     let totalMin = Math.floor(duration / 60);
     let totalSec = Math.floor(duration % 60);
@@ -203,9 +203,9 @@ for (let i = 0; i < allMusic.length; i++) {
 
 //play particular song from the list onclick of li tag
 function playingSong(){
-  const allLiTag = ulTag.querySelectorAll("li");
+  const allLiTag = ulTag?.querySelectorAll("li");
   
-  for (let j = 0; j < allLiTag.length; j++) {
+  for (let j = 0; j < allLiTag?.length; j++) {
     let audioTag = allLiTag[j].querySelector(".audio-duration");
     
     if(allLiTag[j].classList.contains("playing")){

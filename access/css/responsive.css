@@ -1,12 +1,10 @@
-@media (max-width:767px) {
-    .display-text{
-        font-size:120px;
-    }
+/* style tablet */
+@media (max-width: 1024px) and (min-width: 768px) {
     h1{
-        font-size: 60px;
+        font-size: 54px;
     }
     h2{
-        font-size: 48px;
+        font-size: 36px;
     }
     h3{
         font-size: 24px;
@@ -18,34 +16,14 @@
         font-size: 18px;
     }
     h6{
-        font-size: 16px;
+        font-size: 14px;
     }
     p{
-        font-size:14px;
+        font-size:16px;
     }
     a{
-     font-size: 24px;
+     font-size: 18px;
     }
-
-
-    .item-none {
-        display: none;
-    }
-    .item-block {
-        display: block;
-    }
-
-    .info-about2 {
-        margin-top: 20px;
-    }
-    .img-about {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-}
-
-/* style tablet */
-@media (max-width: 1024px) and (min-width: 767px) {
     .logo {
         width: 150px;
     }
@@ -66,10 +44,56 @@
     .small-btn {
         padding: 6px;
     }
+    .item-none {
+        display: none;
+    }
+    .item-block {
+        display: block;
+    }
 }
 
 /* style menu mobile */
 @media screen and (max-width: 767px) {
+    h1{
+        font-size: 43px;
+    }
+    h2{
+        font-size: 33px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    h6{
+        font-size: 12px;
+    }
+    p{
+        font-size:14px;
+    }
+    a{
+     font-size: 16px;
+    }
+
+
+    .item-none {
+        display: none;
+    }
+    .item-block {
+        display: block;
+    }
+
+    .info-about2 {
+        margin-top: 20px;
+    }
+    .img-about {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     .logo {
         width: 190px;
     }
@@ -83,8 +107,8 @@
         background: transparent;
     }
 
-    .bg-menu {
-        background-color: rgba(20, 20, 20, 1);
+    .header.bg-menu {
+        background: rgba(20, 20, 20, 1);
     }
 
     .nav-bar-app {
