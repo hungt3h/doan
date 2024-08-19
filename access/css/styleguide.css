@@ -195,6 +195,7 @@ video#video{
 .navbar{
     display: flex;
     align-items: center;
+    padding: 0 30px;
 }
 
 .sub-menu:first-of-type {
@@ -207,7 +208,7 @@ video#video{
 
 ul.item-menu {
     width: 100%;
-    padding: 0 30px;
+    padding: 0;
     margin: 0;
 }
 

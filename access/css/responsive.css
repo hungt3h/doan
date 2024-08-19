@@ -80,6 +80,7 @@
 
     .menu-mobile {
         display: flex;
+        background: transparent;
     }
 
     .bg-menu {
