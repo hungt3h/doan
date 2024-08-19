@@ -242,3 +242,10 @@ ul.item-menu li a {
 .nav-mobile.active {
     display: block;
 }
+
+.item-none {
+    display: none;
+}
+.item-block {
+    display: block;
+}

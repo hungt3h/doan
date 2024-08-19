@@ -1,15 +1,10 @@
-.header{
-    background-image: url(../img/Rectangle\ 16105.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 500px;
-}
-.main-banner{
+.main-banner {
     display: flex;
     justify-content: center;
-    margin-top: 275px;
+    margin-top: 20%;
     color: white;
 }
+
 .about-mid{
     background-color: #6C6C6C;
 }

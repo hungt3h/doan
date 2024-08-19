@@ -1,3 +1,10 @@
+.main-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    color: white;
+}
+
 .about-mid{
     background-color: #6C6C6C;
 }
